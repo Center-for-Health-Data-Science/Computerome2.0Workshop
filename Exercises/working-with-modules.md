@@ -17,7 +17,9 @@ Bcl2fastq is a tool for genomics, converting bcl2 files into fastq files.
 Load bcl2fastq/2.19.1 and check the help for this software 
 
 > module avail bcl2
+>
 > module load bcl2fastq/2.19.1
+>
 > bcl2fastq --help
 
 Samtools is another tool used for exploring genomics data. 
