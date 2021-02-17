@@ -95,7 +95,7 @@ Let us try the two other methods of launching a job.
 Let us try and run the same job, but by specifying the PBS options on the command line. First copy your mapCanid1.sh script to a file called mapCanid2.sh, and then remove all the PBS options. Then, for each PBS option your removed you want to add the part after the `#PBS ` to the options part of the command line. Finally, launch the command. 
 My version of it looks like this.
 ```
-qsub -W group_list=ku_fa -A ku_fa -N canid2Map -e canid2.err -o canid2.log -l nodes=1:ppn=40,mem=50gb,walltime=1:00:00 -d /home/projects/C2_test mapCanid2.sh
+qsub -W group_list=ku_fa -A ku_fa -N canid2Map -e canid2.err -o canid2.log -l nodes=1:ppn=40,mem=50gb,walltime=1:00:00 -d /home/projects/ku_fa/people/shygop/mapping mapCanid2.sh
 ```
 
 #### Everything on the command line  * *Not recommended for non-expert users* *
