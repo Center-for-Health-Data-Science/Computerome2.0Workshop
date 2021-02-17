@@ -87,7 +87,11 @@ Use `qstat` to monitor the job. What information does it give? Find the job id a
 #### Checking the log files
 After your job is complete, check your output and error files, to see what it says. Here is where you will find information on how your job went, and error messages if there are any. 
 
-You are good to go - and can happy computing.
+You are good to go - and happy computing.
+
+Remmber to optimize your jobs. Slides: <a href="https://docs.google.com/presentation/d/1pkDmYlUms2AaDVU5hnvEzMSGftPyM3o1TqXIxiGgHl0/edit?usp=sharing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png" alt="drawing" width="20"/></a>
+ 
+
 
 ### Only for the more adventurous
 Let us try the two other methods of launching a job. 
