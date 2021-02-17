@@ -51,7 +51,6 @@ module load yyy/version
 ### Run your jobs
 job1
 job2
-...
 ```
 
 ### Modifying the job script
