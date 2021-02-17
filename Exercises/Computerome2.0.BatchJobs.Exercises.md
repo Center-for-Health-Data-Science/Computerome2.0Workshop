@@ -1,8 +1,8 @@
 Computerome 2.0 Users Workshop Exercises
 ================
 
-## Batch jobs
-
+## Batch jobs (Slides: <a href="https://docs.google.com/presentation/d/1nmMyfuLKcQS4ZRC3tt3otSbLWnFG41mYo_bve1pqUrc/edit?usp=sharing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png" alt="drawing" width="20"/></a>)
+ 
 Using your experience from earlier exercises, log into computerome 2.0. Get to the login shell. We are going to run a batch job. 
 
 ### Setting up
