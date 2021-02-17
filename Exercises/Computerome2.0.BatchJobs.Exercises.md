@@ -89,7 +89,7 @@ After your job is complete, check your output and error files, to see what it sa
 
 You are good to go - and happy computing.
 
-Remmber to optimize your jobs. Slides: <a href="https://docs.google.com/presentation/d/1pkDmYlUms2AaDVU5hnvEzMSGftPyM3o1TqXIxiGgHl0/edit?usp=sharing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png" alt="drawing" width="20"/></a>
+Remember to optimize your jobs. Slides: <a href="https://docs.google.com/presentation/d/1pkDmYlUms2AaDVU5hnvEzMSGftPyM3o1TqXIxiGgHl0/edit?usp=sharing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png" alt="drawing" width="20"/></a>
  
 
 
