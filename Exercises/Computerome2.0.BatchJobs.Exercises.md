@@ -23,7 +23,7 @@ ls -l
 ### Template job script
 We will start by using a template job script, which we will modify to our liking to run the mapping. The template script can be found in the ` /home/projects/ku_fa/data/C2_test/` folder. Copy it to the mapping folder into a file called `mapCanid1.sh`. It is the same file from before, from the slides. 
 ```
-cp  /home/projects/ku_fa/data/C2_test/template.sh .
+cp  /home/projects/ku_fa/data/C2_test/template.sh mapCanid1.sh
 ```
 
 For reference, the file looks like this. 
