@@ -1,0 +1,42 @@
+#!/bin/sh
+### Note: No commands may be executed until after the #PBS lines
+
+### This first part is required
+### Account information
+#PBS -W group_list=ku_fa -A ku_fa
+### Number of nodes (1, unless exception) and processor per node (max 40)
+#PBS -l nodes=1:ppn=16
+### Memory
+#PBS -l mem=40gb
+### Requesting time - format is <days>:<hours>:<minutes>:<seconds>
+#PBS -l walltime=24:00:00
+### Send mail when job starts and finishes
+#PBS -m abe
+#PBS -M your.email@sund.ku.dk
+
+### ========== Optional =======
+### Job name (default: name of the script)
+#PBS -N run
+### Error stream (default: job-name.e[jobID])
+#PBS -e myError.err
+### Output stream (default: job-name.o[jobID])
+#PBS -o myOut.log
+### Make output files readable by the group
+#PBS -W umask=0027
+### ===========================
+
+# Go to the directory from where the job was submitted (initial directory is $HOME)
+echo Working directory is $PBS_O_WORKDIR
+cd $PBS_O_WORKDIR
+
+### Here follows the user commands:
+# Define number of processors
+NPROCS=`wc -l < $PBS_NODEFILE`
+echo This job has allocated $NPROCS nodes
+
+# Load all required modules for the job
+module load tools
+#...
+
+# This is where the work is done
+#...
