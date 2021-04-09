@@ -91,3 +91,7 @@ with your **username**.
 -   Can you start `python` (HINT: python is handled by `anaconda`
     packages)?
 -   What `python` packages are available (HINT: `conda list`)?
+
+
+
+Well done! You can now relax and listen to some music - like my [new single](https://MagaliMichaut.lnk.to/DuSilence) for instance... ;-) 
