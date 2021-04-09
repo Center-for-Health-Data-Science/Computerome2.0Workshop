@@ -1,7 +1,7 @@
 Computerome 2.0 Users Workshop Exercises
 ================
 
-## Batch jobs (Slides: <a href="https://docs.google.com/presentation/d/1nmMyfuLKcQS4ZRC3tt3otSbLWnFG41mYo_bve1pqUrc/edit?usp=sharing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png" alt="drawing" width="20"/></a>)
+## Batch jobs (Slides: <a href="https://drive.google.com/file/d/1EZeaMmxbiTeya_137qfmlbZqyVSf9pU0/view?usp=sharing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png" alt="drawing" width="20"/></a>)
  
 Using your experience from earlier exercises, log into computerome 2.0. Get to the login shell. We are going to run a batch job. 
 
@@ -91,7 +91,7 @@ Did the job finish properly? If not, check you log file to see what went wrong? 
 
 You are good to go - and happy computing.
 
-Remember to optimize your jobs. Slides: <a href="https://docs.google.com/presentation/d/1pkDmYlUms2AaDVU5hnvEzMSGftPyM3o1TqXIxiGgHl0/edit?usp=sharing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png" alt="drawing" width="20"/></a>
+Remember to optimize your jobs. Slides: <a href="https://drive.google.com/file/d/1CEzmbRisLkLmyw1kvuOuale0fQnGIL9d/view?usp=sharing"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Google_Slides_logo.svg/1200px-Google_Slides_logo.svg.png" alt="drawing" width="20"/></a>
  
 
 
