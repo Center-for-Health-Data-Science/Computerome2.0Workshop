@@ -58,13 +58,13 @@ Now, we will modify the `mapCanid1.sh` script to fit out requirements and comman
 
 #### Changing the batch system (PBS) directives
 Modify the PBS directives:
--  Change the job name to your liking 
+- Change the job name to your liking 
 - Change the output and error filenames to your liking.
 - Change the resources (give it 1 node, 40 cores, 20gb and 1 hour).
 - Change the working directory to the full path of the current directory (Hint: use `pwd` to find the full path.)
 
 #### Loading the correct modules.  
-We need two programs for our commands - `bwa` and `samtools`. Find these modules and change the module loading part of the script to load the latest versions of bwa and samtools. (Hint1: The `avail` subcommand of module might help find these tools. Hint2: bwa and samtools submodules in the `tools` module.)
+We need two programs for our commands - `bwa` and `samtools`. Find these modules and change the module loading part of the script to load the latest versions of bwa and samtools. (Hint1: The `avail` subcommand of module might help find these tools. Hint2: bwa and samtools are submodules in the `tools` module, so you need to load the tools and ngs modules first.)
 
 #### Add the jobs we want to run
 Replace the placeholders `job1` etc. with these commands.
@@ -72,7 +72,7 @@ Replace the placeholders `job1` etc. with these commands.
 bwa mem -t 40 refgenome/canFam31.fasta Canid1.R1.fastq.gz > Canid1.sam
 samtools view -b Canid1.sam > Canid1.bam
 samtools sort Canid1.bam > Canid1_sorted.bam
-samtools index Canid1_sorted.bam
+samtools index Candi1_sorted.bam
 ```
 
 ### Running and monitoring
@@ -87,6 +87,7 @@ Use `qstat` to monitor the job. What information does it give? Find the job id a
 
 #### Checking the log files
 After your job is complete, check your output and error files, to see what it says. Here is where you will find information on how your job went, and error messages if there are any. 
+Did the job finish properly? If not, check you log file to see what went wrong? What was the error? Can you fix the error and relaunch your script?
 
 You are good to go - and happy computing.
 
